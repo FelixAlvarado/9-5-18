@@ -10,3 +10,8 @@ Using hashing
 usion(list1, list2) - Initialize the result list as NULL and create an empty hash table. traverse both lists one by one, for each element being visited, look the element in the has table. If the element is not present, then insert the element to result list. If element is present, ignore it. 
 
 Intersection(list1,list2) - Initialize result list as NULL and create empty hash table. Traverse list1 for each element being visited in list1, insert element into hash table. Traverse list2, for each element being visited in list2, look element in hash table. If element present, insert element in result list. If element not present, ingore it. 
+
+Explain imperative vs Declarative in react 
+
+Declarative style allows you to control flow and state in ou application by saying "It should look like this." And imperative style turns that around and allows you to control your applicatin g by saying "this is what you should do" 
+
