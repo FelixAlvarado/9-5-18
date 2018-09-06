@@ -3,3 +3,10 @@ When creating an alternating linked list, what do you do?
 Insert nodes one at a time from the second list into the first list until the second list is empty, or you have run out of room on the first list. When the second list is longer don't use extra space by creating additional nodes. Insert the rest of the second list att the end. 
 time: O(n)
 
+What is the best method for getting the union and intersection of two lists? 
+
+Using hashing
+
+usion(list1, list2) - Initialize the result list as NULL and create an empty hash table. traverse both lists one by one, for each element being visited, look the element in the has table. If the element is not present, then insert the element to result list. If element is present, ignore it. 
+
+Intersection(list1,list2) - Initialize result list as NULL and create empty hash table. Traverse list1 for each element being visited in list1, insert element into hash table. Traverse list2, for each element being visited in list2, look element in hash table. If element present, insert element in result list. If element not present, ingore it. 
