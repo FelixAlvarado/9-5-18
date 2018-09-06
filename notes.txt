@@ -1,0 +1,5 @@
+When creating an alternating linked list, what do you do? 
+
+Insert nodes one at a time from the second list into the first list until the second list is empty, or you have run out of room on the first list. When the second list is longer don't use extra space by creating additional nodes. Insert the rest of the second list att the end. 
+time: O(n)
+
