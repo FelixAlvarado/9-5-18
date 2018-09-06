@@ -15,3 +15,7 @@ Explain imperative vs Declarative in react
 
 Declarative style allows you to control flow and state in ou application by saying "It should look like this." And imperative style turns that around and allows you to control your applicatin g by saying "this is what you should do" 
 
+Explain Abract class usage in Javascript 
+
+Absract classes can't be initialize abstract class have at least one abstract method, which is declared by has no implemnetation. Child classes of abstract lasses (derived classes must overdie function to use it. )
+
