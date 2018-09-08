@@ -17,7 +17,12 @@ Declarative style allows you to control flow and state in ou application by sayi
 
 
 
-adding new note
+
+
+
+
+
+
 
 Explain Abract class usage in Javascript
 
